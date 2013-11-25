@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>{{ page.title }}</title>
+    <meta name="author" content="Павел Шумил" />
+    <meta name="robots" content="index, follow" />
+    <meta name="description" content="Официальная страница Павла Шумила. {{ page.description }}" />
+    <meta name="keywords" content="книги, литература, фантастика, научная фантастика, НФ, нф, фэнтези, дракон, драконы, Коша, Джафар, Великий Дракон, Павел Шумил, шумил, shumil, Shumil, Pavel Shumil, Shumilov, Slovo o Drakone, Слово о Драконе, Слово, слово, sci-fi, fantasy, dragons, fiction, book, books, writer, dragon, literature" />
+
+    <link rel="Shortcut Icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="/css/style.css" type="text/css" />
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <div id="wrap">
+      {% include navigation.html %}
+      <div class="container">
+        {{ content }}
+      </div>
+    </div>
+    <footer id="footer">
+        {% include footer.html %}
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html
