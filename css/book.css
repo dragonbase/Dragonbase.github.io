@@ -5,9 +5,30 @@
     font-weight: 400;
 }
 
-.book-container h1 {
-    margin-bottom: 40px;
+.book-container h1 ,
+.book-container h2 ,
+.book-container h3 {
     text-align: center;
+}
+
+.book-container h1 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.book-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.book-container h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.book-container p+h2,
+.book-container p+h3 {
+    margin-top: 60px;
 }
 
 .book-container p {
