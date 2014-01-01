@@ -1,6 +1,7 @@
 ---
 layout: book
 title: Слово о Драконе - Книга Первая - Слово о Драконе
+canonical: books/slovo-o-drakone
 book:
   title: Слово о Драконе
   author:
