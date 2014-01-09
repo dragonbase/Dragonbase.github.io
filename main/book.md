@@ -16,9 +16,6 @@ book:
                           (C) Павел Шумил
 
                           Шумилов Павел Робертович.
-                          E-mail: Shumil@srces2.spb.org
-                          HomePage: http://come.to/shumil
-                          HomePage: http://dragonbase.narod.ru
 
 КНИГА ПЕРВАЯ
 ============
