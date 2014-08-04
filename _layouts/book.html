@@ -31,15 +31,15 @@
         <article class="book-container">
           <header>
             <div class="authors">
-            {% for author in page.book.author %}
+            {% for author in page.info.author %}
               <div class="author">{{author.name}}</div>
             {% endfor %}
             </div>
           {% if page.book_series_name %}
             <div class="series">{{page.book_series_name}}</div>
           {% endif %}
-            <div class="finished"><span>Закончен:</span> {{page.book.date}}</div>
-            <div class="updated"><span>Последнее обновление:</span> {{page.book.updated}}</div>
+            <div class="finished"><span>Закончен:</span> {{page.info.date}}</div>
+            <div class="updated"><span>Последнее обновление:</span> {{page.info.updated}}</div>
           </header>
           {{ content }}
         </article>
