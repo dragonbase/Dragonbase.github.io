@@ -1,0 +1,22 @@
+---
+layout: default
+title: База Драконов. Официальный сайт Павла Шумила
+canonical: books
+---
+<div class="container">
+{% assign allbooks = site.books|group_by: "book_series_name" %}
+{% for series in allbooks %}
+<section class="container">
+    {% if series.name %}
+    <h1>{{series.name}}</h1>
+    {% endif %}
+    {% assign books = series.items|sort: "book_series_order" %}
+    {% for book in books %}
+    <article class="book">
+        <h1><a href="{{book.url}}">{{book.info.title}}</a></h1>
+        {{ book.info.annotation|markdownify }}
+    </article>
+    {% endfor %}
+</section>
+{% endfor %}
+</div>

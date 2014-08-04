@@ -35,8 +35,8 @@
               <div class="author">{{author.name}}</div>
             {% endfor %}
             </div>
-          {% if page.book.series %}
-            <div class="series"><span>{{page.book.series.type}}:</span> {{page.book.series.name}}</div>
+          {% if page.book_series_name %}
+            <div class="series">{{page.book_series_name}}</div>
           {% endif %}
             <div class="finished"><span>Закончен:</span> {{page.book.date}}</div>
             <div class="updated"><span>Последнее обновление:</span> {{page.book.updated}}</div>
